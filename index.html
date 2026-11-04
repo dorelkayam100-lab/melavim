@@ -41,12 +41,7 @@
 <iframe id="app" title="מלווים" allow="clipboard-write"></iframe>
 <script>
   /* ▼▼▼ כאן מדביקים את הקישור של האפליקציה (זה שמסתיים ב-/exec) ▼▼▼ */
-var APP_URL = 'https://script.google.com/macros/s/.../exec';
-  /* ▲▲▲ ▲▲▲ */
-
-  var frame = document.getElementById('app');
-  var msg = document.getElementById('msg');
-  function slow(text) {
+  var APP_URL = 'https://script.google.com/macros/s/AKfycbx1Z0kuKEwR3gwE05A3axY1mXtn2564PB6DS2FnK-iGOd0F9AND96UVEmVCi86nyXBwNw/exec';  function slow(text) {
     msg.innerHTML = text + '<br><button onclick="location.reload()">לנסות שוב</button>';
     document.body.classList.add('slow');
   }
